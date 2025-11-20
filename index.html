@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Database</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header-1">Student Database</h1>
+
+      <form
+        id="studentForm"
+        autocomplete="off"
+        aria-label="Student sumbission form"
+      >
+        <label for="name">Please enter student name</label>
+        <input
+          id="name"
+          name="name"
+          type="name"
+          placeholder="e.g. Filan Fisteku"
+        />
+
+        <label for="name">Please enter student age</label>
+        <input id="age" name="age" type="number" placeholder="e.g. 24" />
+
+        <label for="name">Please enter student class</label>
+        <input
+          name="classType"
+          type="text"
+          placeholder="e.g. Class 101, Class A"
+          id="studentClass"
+        />
+        <h5 class="Inform-result">
+          Below this form you can view all the students you submited
+        </h5>
+        <button type="button" onclick="studentSubmit()">Submit</button>
+      </form>
+
+      <p id="Output" class="hidden"></p>
+    </div>
+
+    <footer class="footer">
+      <p class="footer-paragraph">&copy; Aulon Ajvazi, All rights reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

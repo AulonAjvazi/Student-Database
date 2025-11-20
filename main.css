@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-1 {
+  text-align: center;
+}
+
+.Inform-result {
+  font-size: light;
+}
+
+form {
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 150px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#Output {
+  white-space: pre-wrap;
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#name,
+#age,
+#studentClass {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e1d0b3;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f3e8df;
+  color: #313647;
+  text-shadow: 2px 2px 8px #f0e491;
+  border: 1px solid;
+}
+
+.footer {
+  text-align: center;
+}
