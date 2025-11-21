@@ -21,10 +21,19 @@
           name="name"
           type="name"
           placeholder="e.g. Filan Fisteku"
+          required
         />
 
         <label for="name">Please enter student age</label>
-        <input id="age" name="age" type="number" placeholder="e.g. 24" />
+        <input
+          id="age"
+          name="age"
+          type="number"
+          placeholder="e.g. 24"
+          required
+          min="0"
+          max="120"
+        />
 
         <label for="name">Please enter student class</label>
         <input
@@ -32,10 +41,13 @@
           type="text"
           placeholder="e.g. Class 101, Class A"
           id="studentClass"
+          required
         />
         <h5 class="Inform-result">
           Below this form you can view all the students you submited
         </h5>
+
+        <h5 class="Inform-result-feedback"></h5>
         <button type="button" onclick="studentSubmit()">Submit</button>
       </form>
 
@@ -43,9 +55,12 @@
     </div>
 
     <footer class="footer">
-      <p class="footer-paragraph">&copy; Aulon Ajvazi, All rights reserved</p>
+      <p class="footer-paragraph">
+        &copy; <span class="fullyear"></span> Aulon Ajvazi, All rights reserved
+      </p>
     </footer>
 
     <script src="app.js"></script>
   </body>
 </html>
+
