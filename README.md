@@ -1,6 +1,6 @@
 # Student Database
 
-A basic Student Database that allows for name, age, Student Class Name. That is stored locally on the browser for you to view.
+A basic Student Database that allows for name, age, Student Class Name. That is stored locally on the browser for you to view and has success and error handling.
 
 ## Project
 
