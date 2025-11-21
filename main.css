@@ -63,10 +63,10 @@ button {
 button:hover {
   background-color: #f3e8df;
   color: #313647;
-  text-shadow: 2px 2px 8px #f0e491;
   border: 1px solid;
 }
 
 .footer {
   text-align: center;
 }
+
