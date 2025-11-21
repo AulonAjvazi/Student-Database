@@ -15,6 +15,11 @@ body {
   font-size: light;
 }
 
+.Inform-result-feedback {
+  font-size: light;
+  color: #dc0e0e;
+}
+
 form {
   width: 90%;
   padding: 20px;
@@ -49,6 +54,14 @@ form {
   box-sizing: border-box;
 }
 
+input:not(:placeholder-shown):valid {
+  outline-color: #a3d78a;
+}
+
+input:not(:placeholder-shown):invalid {
+  outline-color: #dc0e0e;
+}
+
 button {
   background-color: #e1d0b3;
   border: none;
@@ -63,10 +76,14 @@ button {
 button:hover {
   background-color: #f3e8df;
   color: #313647;
+  text-shadow: 2px 2px 8px #f0e491;
+  /* border: 1px solid; */
+}
+
+button:active {
   border: 1px solid;
 }
 
 .footer {
   text-align: center;
 }
-
